@@ -1,5 +1,6 @@
 package com.itavil.food.notificacao;
 
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.itavil.food.model.Cliente;

@@ -1,6 +1,7 @@
 package com.itavil.food.service;
 
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Component;
 
 import com.itavil.food.model.Cliente;
@@ -8,6 +9,7 @@ import com.itavil.food.model.Cliente;
 @Component
 public class AtivacaoClienteService {
 
+	@Qualifier("email")
 	@Autowired
 	private Notificador notificador;
 
